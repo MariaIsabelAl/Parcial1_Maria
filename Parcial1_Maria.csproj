@@ -9,7 +9,6 @@
   <ItemGroup>
     <Folder Include="BLL\" />
     <Folder Include="DAL\Script\" />
-    <Folder Include="Entidades\" />
     <Folder Include="UI\Consulta\" />
     <Folder Include="UI\Registro\" />
   </ItemGroup>
