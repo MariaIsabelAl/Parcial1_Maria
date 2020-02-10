@@ -1,0 +1,24 @@
+﻿<Window x:Class="Parcial1_Maria.UI.Registro.RArticulos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Parcial1_Maria.UI.Registro"
+        mc:Ignorable="d"
+        Title="Registro de Productos" Height="400" Width="400">
+    <Grid>
+        <Label x:Name="IdLabel" Content="ProductoId" HorizontalAlignment="Left" Height="30" Margin="12,14,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="DescripcionLabel" Content="Descripción" HorizontalAlignment="Left" Height="30" Margin="12,62,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="ExistenciaLabel" Content="Existencia" HorizontalAlignment="Left" Height="30" Margin="11,106,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="CostoLabel" Content="Costo" HorizontalAlignment="Left" Height="30" Margin="10,152,0,0" VerticalAlignment="Top" Width="82"/>
+        <Label x:Name="ValorLabel" Content="Valor Inventario" HorizontalAlignment="Left" Height="30" Margin="9,201,0,0" VerticalAlignment="Top" Width="99"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="115,206,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="115,156,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="174"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="115,114,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="173"/>
+        <TextBox HorizontalAlignment="Center" Height="32" Margin="0,68,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="167"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="115,19,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="254,17,0,0" VerticalAlignment="Top" Width="69"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="121,256,0,0" VerticalAlignment="Top" Width="72"/>
+
+    </Grid>
+</Window>
