@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Parcial1_Maria"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Registro del Producto Menu" Height="300" Width="300">
     <Grid>
+        <Button x:Name="RegistroButton" Content="Registro" HorizontalAlignment="Left" Height="43" Margin="95,76,0,0" VerticalAlignment="Top" Width="104" Click="RegistroButton_Click"/>
+        <Button x:Name="ConsultaButton" Content="Consulta" HorizontalAlignment="Center" Height="43" Margin="0,155,0,0" VerticalAlignment="Top" Width="108" Click="ConsultaButton_Click"/>
 
     </Grid>
 </Window>

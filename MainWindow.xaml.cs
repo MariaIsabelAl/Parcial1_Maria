@@ -12,17 +12,29 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Parcial1_Maria.UI.Registro;
+using Parcial1_Maria.UI.Consulta;
 
 namespace Parcial1_Maria
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RegistroButton_Click(object sender, RoutedEventArgs e)
+        {
+            RArticulos rArticulos = new RArticulos();
+            rArticulos.Show();
+        }
+
+        private void ConsultaButton_Click(object sender, RoutedEventArgs e)
+        {
+            RConsulta rConsulta = new RConsulta();
+            rConsulta.Show();
         }
     }
 }
